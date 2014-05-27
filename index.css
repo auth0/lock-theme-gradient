@@ -1,0 +1,41 @@
+.a0-widget .a0-panel {
+  background: red;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4a4969), color-stop(50%, #7072ab), to(#cd82a0));
+  background-image: -webkit-linear-gradient(top, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
+  background-image: -moz-linear-gradient(top, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
+  background-image: linear-gradient(to bottom, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
+  background: -webkit-linear-gradient(330deg, #942f0d 0%, #14204d 100%);
+  background: -moz-linear-gradient(330deg, #942f0d 0%, #14204d 100%);
+  background: linear-gradient(120deg, #942f0d 0%, #14204d 100%);
+  color: white;
+}
+.a0-widget .a0-panel .a0-close:hover {
+  color: #fff;
+}
+.a0-widget .a0-panel .a0-avatar {
+  background: rgba(0, 0, 0, 0.2);
+}
+.a0-widget .a0-panel .a0-avatar i {
+  color: #fff;
+}
+.a0-widget .a0-panel .a0-inputs {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+.a0-widget .a0-panel .a0-separator {
+  color: rgba(255, 255, 255, 0.5);
+}
+.a0-widget .a0-panel button.a0-primary {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 100px;
+  width: 80%;
+}
+.a0-widget .a0-panel .a0-btn-small {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.a0-widget .a0-panel .a0-btn-small:hover {
+  border-color: white;
+  background: none;
+}
+.a0-widget .a0-panel .a0-footer .a0-logo i {
+  color: white;
+}

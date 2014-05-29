@@ -2,10 +2,6 @@
 =            Widget Gradient            =
 =======================================*/
 #a0-widget .a0-panel {
-  background: red;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4a4969), color-stop(50%, #7072ab), to(#cd82a0));
-  background-image: -webkit-linear-gradient(top, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
-  background-image: -moz-linear-gradient(top, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
   background-image: linear-gradient(to bottom, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
   color: white;
 }
@@ -19,7 +15,23 @@
   color: #fff;
 }
 #a0-widget .a0-panel .a0-inputs {
-  border-color: rgba(0, 0, 0, 0.4);
+  border: 0;
+}
+#a0-widget .a0-panel .a0-inputs i {
+  color: #ffa4f3 !important;
+}
+#a0-widget .a0-panel .a0-inputs input {
+  background: transparent;
+}
+#a0-widget .a0-panel .a0-inputs input::-webkit-input-placeholder {
+  color: white;
+}
+#a0-widget .a0-panel .a0-inputs input:focus {
+  background-color: transparent;
+}
+#a0-widget .a0-panel .a0-password,
+#a0-widget .a0-panel .a0-repeatPassword {
+  border-color: rgba(255, 255, 255, 0.2);
 }
 #a0-widget .a0-panel .a0-separator {
   color: rgba(255, 255, 255, 0.5);
@@ -38,4 +50,13 @@
 }
 #a0-widget .a0-panel .a0-footer .a0-logo i {
   color: white;
+}
+@media screen and (max-width: 480px) {
+  #a0-widget .a0-popup .a0-overlay {
+    background-image: linear-gradient(to bottom, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
+    color: white;
+  }
+  #a0-widget .a0-popup .a0-overlay .a0-panel {
+    background: transparent;
+  }
 }
